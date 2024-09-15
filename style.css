@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 select:focus,
@@ -16,7 +16,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #F1F7B5;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -38,17 +38,17 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(90deg, #222(0, 0, 0, 0.1), #222(0, 0, 0, 0.5) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #fff;
+  color: #EF5A6F;
   font-size: 3.5em;
   white-space: nowrap;
   font-weight: bold;
   padding: 0px 10px;
   transform-style: preserve-3d;
-  text-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 10px 15px #030303(0, 0, 0, 0.3);
   transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(109px);
 }
 
@@ -57,11 +57,11 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #536493;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #55AD9B;
 }
 
 @keyframes animate {
